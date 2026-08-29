@@ -1,0 +1,34 @@
+# 1. Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Virtual Environments 
+.venv/
+venv/
+ENV/
+env/
+
+# 3. Environment Variables & Secret Files 
+.env
+.env.*
+*.env
+
+# 4. Databases 
+*.sqlite3
+*.db
+
+# 5. Testing & Coverage Reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 6. IDE / Code Editor Settings 
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# 7. OS Generated Junk Files
+.DS_Store
+Thumbs.db
