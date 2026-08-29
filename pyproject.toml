@@ -1,0 +1,11 @@
+[project]
+name = "SDRpilot"
+version = "0.1.0"
+description = 'Leads and Pitch Generation Application'
+dependencies = ["fastapi[standard]"]
+[tool.fastapi]
+entrypoint = "main:app"
+
+# pytest.ini
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
